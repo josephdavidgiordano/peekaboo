@@ -6,7 +6,7 @@ import numpy as np
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1, min_detection_confidence=0.5)
 
-# Define a function to calculate the eye aspect ratio
+# Define function to calculate eye aspect ratio
 def get_eye_aspect_ratio(landmarks, eye_indices):
     left = np.array([landmarks[i] for i in eye_indices])
     A = np.linalg.norm(left[1] - left[5])
