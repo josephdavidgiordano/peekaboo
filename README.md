@@ -1,1 +1,1 @@
-A simple computer vision program that allows you to play "Peekaboo" with your webcam.
+A simple computer vision program that allows you to play "Peekaboo" with your webcam. You can play by either covering your eyes with your hands or popping in and out of the frame. Press 'q' to quit the program.
